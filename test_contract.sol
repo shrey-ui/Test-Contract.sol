@@ -3,10 +3,9 @@ pragma solidity =0.7.6;
 
 import './UniswapV3PoolDeployer.sol';
 import './NoDelegateCall.sol';
-import './UniswapV3Pool.sol';
 /// @title Canonical Uniswap V3 factory
 /// @notice Deploys Uniswap V3 pools and manages ownership and control over pool protocol fees
-contract UniswapV3Factory is UniswapV3PoolDeployer, NoDelegateCall, UniswapV3Pool {
+contract UniswapV3Factory is UniswapV3PoolDeployer, NoDelegateCall {
     /// @inheritdoc IUniswapV3Factory
     address public override owner;
     /// @inheritdoc IUniswapV3Factory
