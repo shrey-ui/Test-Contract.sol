@@ -1,6 +1,6 @@
 / SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.7.6;
-import './interfaces/IUniswapV3Factory.sol';
+
 import './UniswapV3PoolDeployer.sol';
 import './NoDelegateCall.sol';
 import './UniswapV3Pool.sol';
