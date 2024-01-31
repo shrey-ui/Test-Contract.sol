@@ -3,7 +3,6 @@ pragma solidity =0.7.6;
 
 import './IUniswapV3PoolDeployer.sol';
 
-import './UniswapV3Pool.sol';
 
 contract UniswapV3PoolDeployer is IUniswapV3PoolDeployer {
     struct Parameters {
